@@ -1,0 +1,27 @@
+.tamanho{
+    font-size: 50px;
+}
+/* # para id*/
+#coramarelo{
+    background-color: yellow;
+}
+/* . para class*/
+.corvermelha,h2 {
+    background-color: red;
+    color: rgb(22, 22, 22);
+}
+ol li a {
+    font-size: 20px;
+}
+div p strong a {
+    font-size: 30px;
+}
+a:hover {background-color: black;
+    color: rgb(230, 131, 39);
+    font-size: 50px;
+}
+h1::first-letter{
+    font-size: 50px;
+    color: rgb(255, 254, 254);
+    background-color: rgb(233, 132, 132);
+}
