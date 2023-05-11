@@ -1,0 +1,39 @@
+a:link{
+    color: green;
+    background-color: bisque;
+    text-decoration: none;
+
+}
+a:visited{
+    color: bisque;
+    background-color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+    background-color:black ;
+    font-size: 20px;
+    border: dashed 3 px yellowgreen;
+}
+a:active{
+    color: white;
+}
+.pseudo{
+    background-color: coral;
+    height: 30px;
+    width: 100px;
+   
+}
+.pseudo:hover{
+   background-color: darkblue;
+   height: 50px;
+   width: 200px;
+   transition: 4s;
+   border-radius: 20px;
+   padding: 10px;
+ 
+}
+input:focus{
+    background-color: yellow;
+    height: 30px;
+}
